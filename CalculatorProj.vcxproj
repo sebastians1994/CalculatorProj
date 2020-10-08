@@ -87,10 +87,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <QtRcc Include="CalculatorProj.qrc" />
-    <QtUic Include="CalculatorProj.ui" />
     <QtMoc Include="CalculatorProj.h" />
     <ClCompile Include="CalculatorProj.cpp" />
     <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="CalculatorProj.ui" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

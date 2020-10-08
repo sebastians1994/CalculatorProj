@@ -6,5 +6,5 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);
     CalculatorProj w;
     w.show();
-    return a.exec();   //Hi Tom
+    return a.exec();
 }

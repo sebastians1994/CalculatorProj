@@ -27,9 +27,6 @@
     <QtRcc Include="CalculatorProj.qrc">
       <Filter>Resource Files</Filter>
     </QtRcc>
-    <QtUic Include="CalculatorProj.ui">
-      <Filter>Resource Files</Filter>
-    </QtUic>
     <QtMoc Include="CalculatorProj.h">
       <Filter>Header Files</Filter>
     </QtMoc>
@@ -41,5 +38,10 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="CalculatorProj.ui">
+      <Filter>Resource Files</Filter>
+    </QtUic>
   </ItemGroup>
 </Project>
