@@ -76,7 +76,7 @@ QPushButton:pressed {
        <string notr="true">QPushButton {
   background-color: rgb(255, 151, 57);
   color: white; 
-  border: 2px solid gray;
+  border: 10px solid gray;
 }
 
 QPushButton:pressed {
@@ -603,7 +603,7 @@ QPushButton:pressed {
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources>
-  <include location="../Desktop/CalculatorProj/CalculatorProj.qrc"/>
+  <include location="CalculatorProj.qrc"/>
  </resources>
  <connections/>
 </ui>
